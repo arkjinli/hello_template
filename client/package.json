@@ -1,0 +1,32 @@
+{
+  "name": "hello_template",
+  "version": "1.0.0",
+  "description": "The font-end package for hello_template",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack --progress -p --config webpack-config.js",
+    "watch": "webpack --progress -d --config webpack-config.js --watch"
+  },
+  "author": "Jinli",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.4.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

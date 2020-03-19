@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 
 const config = {
-    entry: path.resolve(__dirname, 'js/index.jsx'),
+    entry: path.resolve(__dirname, 'src/index.js'),
     output:{
         path: path.resolve('../static'),
         filename: 'bundle.js',
@@ -13,7 +13,7 @@ const config = {
     module: {
         rules: [
             {
-                test: /\.jsx?/,
+                test: /\.jsx?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
             }
